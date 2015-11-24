@@ -1,0 +1,123 @@
+<html>
+<head> 
+    <title>MAGNITUDES ESCALARES Y VECTORIALES</title>
+      <body style="background-color:green">
+   <link href ="style.html" rel ="stylesheet">
+    </head>
+    <body  class='borde' >
+        
+        
+        
+       
+            <form action="form-responses/new" method="POST">
+
+                <input type="text" name="firstname" placeholder="pon tu nombre aqui " size="20" autofocus> <br> <br>
+                <!--sirve para cuando refrescamos la pagina salga el puntero aqui-->
+  <input type="password" placeholder="contrasena" name="pswd">
+               <br><br>
+  <input type="email" name="userEmail" placeholder="ejemplo@gmail.com"><br><br> <!--es como ayuda al ususario para decirle que tiene que tener su campo-->
+
+  <input type="radio" name="weird" value="code-blue" checked><span>escoge esta!!!!</span><br><br>
+  <input type="radio" name="weird" value="code-red" checked><span>o esta </span><br><br>
+
+  <input type="checkbox" name="optin" value="trusting" checked>estas de acuerdo con todo
+  <input type="checkbox" name="optout" value="skeptical" disabled>espera , que ?
+
+  <select name="carros ">
+    <optgroup label="autos de lujo  ">
+      <option value="volvo">Volvo</option>
+      <option value="range roverd">range roverd </option>
+        
+        <optgroup label="honda">
+            
+            <option value="civic">civic</option>
+             <option value="city">city</option>
+            
+            
+            <optgroup label="atos chevrolet   ">
+                
+                 <option value="tornado">tornado</option>
+                 <option value="cheyene">cheyene</option>
+                
+                <optgroup label=" nissan">
+                    
+                     <option value="sentra xl">sentra xl</option>
+                     <option value="juke sport ">juke sport </option>
+                    
+                    
+                    <optgroup label="volks wagen ">
+                        
+                         <option value="golf gli">golf gli</option>
+                         <option value="jetta sport"> jetta sport</option>
+                        
+                        
+                        <optgroup label="ford  ">
+                            
+                             <option value="lobo raptor">lobo raptor</option>
+                             <option value="mustang gli">mustang gli</option>
+                            
+                            <optgroup label="mazda  ">
+                                
+                                 <option value="mazda 6">mazda 6</option>
+                                 <option value="mazda 3">mazda 3</option>
+                                
+                                
+    </optgroup>
+  </select><br><br>
+                
+
+  <textarea name="user_message" rows="8" cols="40"></textarea> <br><br>  <!-- estas son las filas y las columnas -->
+  <input type="submit"> <!-- este es el boton paraenviar -->
+</form>
+        
+               
+        
+        <p  ><b id ='circulo'>MAGNITUDES ESCALARES Y VECTORIALES</b>
+            <div>
+ 
+  <p >  Un escalar es un tipo de magnitud fisica que se expresa por un solo numero y tiene el mismo valor para todos los observadores. Una
+               
+    <p>magnitud fisica se denomina <b class='borde' id ='circulo' >escalar</b> cuando se representa con un unico numero (unica coordenada) invariable en cualquier sistema de
+    <p>referencia. Por ejemplo, la temperatura de un cuerpo se expresa con una <b class='borde' id ='circulo'>magnitud escalar.</b> Asi la masa de un cuerpo es un escalar,
+        pues
+        <p>basta un numero para representarla (por ejemplo: 75 kg).1
+    
+
+<p>Por el contrario, una magnitud es vectorial o, mas generalmente tensorial, cuando se necesita algo mas que un numero para
+    representarla
+    <p>completamente. Por ejemplo, la velocidad del viento es una magnitud vectorial ya que, ademas de su modulo (que se
+    mide como una 
+        <p>magnitud escalar), debe indicarse<b class ='borde'  id ='circulo'> tambien su direccion</b> (norte, sur , este, etc.), que se define por un vector unitario.1 En cambio, la 
+        <p>distribucion de tensiones internas de un cuerpo requiere especificar en cada punto una matriz llamada <b class='borde' id ='circulo'>tensor tension</b> y por tanto el
+            <p>estado de tension de un cuerpo viene representado por una magnitud tensorial
+                </div>
+        
+       
+        
+        
+        <TABLE  width =500 px 
+            height=500 px   align = center  >
+
+<TD id ='estilo1'  width =150 px 
+            height=100 px valign=top  bgcolor ="7E7E78" >
+Como ejemplos de escalares tenemos la masa, la carga electrica, el volumen, el tiempo, la rapidez, la temperatura o el potencial electrico. La distancia entre dos puntos en un espacio tridimensional es un escalar. Sin embargo, la direccion desde uno de estos puntos al otro no lo es, puesto que para describir la direccion se requiere de dos magnitudes: el ángulo medido sobre el plano horizontal y el angulo medido desde dicho plano. La fuerza no puede ser descrita por un escalar, ya que esta propiedad esta compuesta de una direccion y una magnitud. </TD>
+
+<TD id ='estilo1' width =150 px 
+            height=100 px valign=top bgcolor ="7E7E78" >
+En la teoria de la relatividad, se consideran cambios de coordenadas que cambian espacio por tiempo. Como resultado de esto, muchas magnitudes fisicas que son escalares en fisica clasica necesitan combinarse con otras magnitudes como vectores o tensores en cuatro dimensiones.  </TD>
+>
+<TD id ='estilo1'  width =150 px 
+            height=100 px valign=top bgcolor ="7E7E78" >
+De la misma manera, la densidad de energia se debe combinar con la densidad de momento y la presion para formar el tensor de energia-momento </TD>
+
+        </TABLE>
+        
+        <p id ='center'>   <img src  ="http://www.sabelotodo.org/fisica/imagenes/plano1.png"  ></p>
+        
+        <p id ='center ' >  <img src = "https://theparadaise.files.wordpress.com/2012/05/vector-pelota.jpg"></p>
+        
+       <p id ='center'> <iframe width="560" height="315" src="https://www.youtube.com/embed/Tw8mpgccugc" frameborder="0" allowfullscreen></iframe></p>
+        
+    </body>
+    
+    </html>
